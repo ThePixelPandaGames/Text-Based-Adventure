@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: underground
+  m_EditorClassIdentifier: 
+  locationName: underground
+  locationDescription: Beneath enemy territory, in the hidden underground base, torches
+    flicker in the dimly lit passageways. The voices of the resistance fill the air,
+    echoing tales of hope and determination. Here, the seeds of revolution are sown,
+    and the undercurrent of change is palpable.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 390d9294cd1828a4ebad45cdf6a44936, type: 2}
+    exitDescription: The dimly lit cavern gives way to the harsh, unforgiving terrain
+      of Serpents Pass, revealing the stark contrast between the hidden refuge and
+      the perilous landscape.
+    isVisible: 1
+  interactables: []
+  enemies: []
+  npcs:
+  - {fileID: 11400000, guid: e6be5d518e91d554bb10861ab170b54e, type: 2}
+  - {fileID: 11400000, guid: 6216323e4eca8cf439cce1a146ab3b49, type: 2}
+  - {fileID: 11400000, guid: 3c0a3db4439320c4f9c2f35a60d1faa1, type: 2}
+  bg: {fileID: 21300000, guid: 7bfeef57830b9f441862dab7c249d511, type: 3}

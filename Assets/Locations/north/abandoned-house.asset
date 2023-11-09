@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: abandoned-house
+  m_EditorClassIdentifier: 
+  locationName: abandoned-house
+  locationDescription: The abandoned house atop the High Mountains is a relic of
+    exploration and solitude. Worn wooden beams crisscross the dimly lit space, while
+    aged maps and frayed documents scatter the room. The stories etched into the
+    walls here are a testament to the explorer's journeys and quests for the unknown.
+    Each creaking floorboard and faded journal page carries secrets that hint at
+    the adventures of the past.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 3f7c62dd925f4e841947fff0ec8acbda, type: 2}
+    exitDescription: Leaving the gloomy interior of the abandoned house, you find
+      yourself back at the entrance of the dilapidated structure. The towering peaks
+      of the high mountains loom over you as you make your way back to the mountain
+      trail.
+    isVisible: 1
+  interactables:
+  - {fileID: 11400000, guid: 3f23ec9fedb55ac479e5d9f2e030c806, type: 2}
+  - {fileID: 11400000, guid: 3e67f328831a65e4fba4f158ac2e5ce0, type: 2}
+  enemies: []
+  npcs: []
+  bg: {fileID: 21300000, guid: db9328dc6698d6845b2c372b90b665e5, type: 3}

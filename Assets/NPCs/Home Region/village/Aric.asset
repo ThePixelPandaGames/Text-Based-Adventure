@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc7a58c759a363448acd5a5617704d4, type: 3}
+  m_Name: Aric
+  m_EditorClassIdentifier: 
+  name: aric
+  descriptionInLocation: In the bustling village, you find Aric, your trusted mentor.
+    His presence exudes strength and familiarity, and his eyes meet yours with a
+    reassuring gaze.
+  reward: {fileID: 11400000, guid: 4d7b80cc07fa44a4f8132c4adba4a7ea, type: 2}
+  response: "\rMy dear pupil, you've grown stronger and wiser with each passing day.
+    It's time for you to embrace your destiny and seek the truth about your sister's
+    disappearance. Take this, and may it guide you to the answers you seek. Begin
+    your journey in the forest, where the winds whisper secrets."
+  riddle:
+    riddleQuestion: 
+    riddleAnswer: 
+    riddleReward: {fileID: 0}
+    locationToUnlock: {fileID: 0}

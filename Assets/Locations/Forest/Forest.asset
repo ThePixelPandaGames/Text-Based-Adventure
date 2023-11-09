@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: Forest
+  m_EditorClassIdentifier: 
+  locationName: forest
+  locationDescription: Here, in the heart of the forest, ancient trees stand as silent
+    guardians. Their leaves seem to whisper secrets to those who tread lightly and
+    listen closely. Dappled sunlight paints a tapestry on the forest floor, guiding
+    you further into its depths.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 782f1153a396b124680c3aa68f150203, type: 2}
+    exitDescription: The forest grows denser and darker as you venture deeper within
+      its heart. The foliage overhead blocks out much of the sunlight, casting the
+      forest floor in a perpetual shade. The forest-deep beckons with its enigmatic
+      secrets.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: d536c5f30b2e3e940820c30382513aaa, type: 2}
+    exitDescription: A transition from the dense foliage of the forest reveals the
+      picturesque beauty of your home region. Lush greenery and the warmth of sunlight
+      engulf you, welcoming you to this familiar haven.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 346029fb56267d04a96a0a37463fbbf3, type: 2}
+    exitDescription: A winding path leads out of the forest, and you can see it stretching
+      into the distance as it beckons you to explore the Greenpass.
+    isVisible: 1
+  interactables: []
+  enemies:
+  - {fileID: 11400000, guid: 1134477cf740a634ba6a85211001d990, type: 2}
+  npcs:
+  - {fileID: 11400000, guid: ffce37a9feb0c284fb6d2f58302c44b0, type: 2}
+  bg: {fileID: 21300000, guid: 07da2897f20c01b4b8846abf348e1f72, type: 3}

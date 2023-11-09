@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: 2 4
+  m_EditorClassIdentifier: 
+  locationName: The Hero
+  locationDescription: "Maw\xFCn \u2013 The Rain's Children: Maw\xFCn, the children
+    of rain, are known for their affinity with water. They have an uncanny connection
+    to the healing and nurturing qualities of water, which they use to mend the wounds
+    of the land and its people. Their powers are often called upon in times of drought
+    and famine.\r\n\r\nAliwen \u2013 The Guardians of the Forest: Aliwen, the guardians
+    of the forest, have an inherent bond with the woods. They are defenders of nature
+    and possess a keen insight into the secrets of the ancient trees. Aliwen are
+    often seen as stewards of the land, tasked with protecting its many wonders.\r\n\r\nNewen
+    \u2013 The Bringers of Strength: Newen, the bringers of strength, draw their
+    power from the earth. With the might of mountains at their command, they shape
+    the land and protect it from external threats. The Newen are known for their
+    resilience and sheer physical strength."
+  exits: []
+  interactables: []
+  enemies: []
+  npcs: []
+  bg: {fileID: 0}

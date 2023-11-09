@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: desert pass
+  m_EditorClassIdentifier: 
+  locationName: desertpass
+  locationDescription: The desert pass stretches before you, its vastness and isolation
+    playing tricks on the senses. Mirages dance on the horizon, weaving a world of
+    illusions beneath the unrelenting sun. What secrets lie hidden beyond the shimmering
+    veil?
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 346029fb56267d04a96a0a37463fbbf3, type: 2}
+    exitDescription: In the heart of Desert Pass, the path before you leads to the
+      vibrant and green scenery of the Green Pass.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 782f1153a396b124680c3aa68f150203, type: 2}
+    exitDescription: Retracing your steps from the Desert Pass, you arrive back at
+      the forest's depths. The choice between two paths lies before you.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 390d9294cd1828a4ebad45cdf6a44936, type: 2}
+    exitDescription: The narrow trail ahead leads into the treacherous terrain of
+      Serpents Pass.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: e2404734283cb4c4089f69191563ecb1, type: 2}
+    exitDescription: A rocky path winds upward, leading to the towering alps.
+    isVisible: 1
+  interactables: []
+  enemies:
+  - {fileID: 11400000, guid: 6a15247bed7af8a4f94318629a8faae6, type: 2}
+  npcs: []
+  bg: {fileID: 21300000, guid: 2f0fa9d0c490e3446a0bbc5f94c261e0, type: 3}

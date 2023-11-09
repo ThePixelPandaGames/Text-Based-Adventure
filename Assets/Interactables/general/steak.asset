@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a9558e177973646b39b0b18eccebdd, type: 3}
+  m_Name: steak
+  m_EditorClassIdentifier: 
+  name: steak
+  description: The Smoked Tuna Steak is a thick cut of tuna fish, smoked to infuse
+    it with a rich and smoky flavor, complemented by a hint of saltiness
+  examinationDescription: You inspect the Smoked Tuna Steak. The meat appears well-smoked,
+    and the aroma is a delightful mix of smokiness and saltiness. Eating it might
+    enhance your endurance
+  taken: 0
+  used: 0
+  takeable: 1
+  usable: 1
+  discardAfterUse: 1
+  boostNumber: 2

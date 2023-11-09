@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc7a58c759a363448acd5a5617704d4, type: 3}
+  m_Name: Maria
+  m_EditorClassIdentifier: 
+  name: maria
+  descriptionInLocation: Maria, a friendly neighbor, welcomes you to the village
+    with a warm smile. Her stories bring the village's history to life, weaving a
+    rich tapestry of community and shared experiences
+  reward: {fileID: 11400000, guid: da5c01acaedf9874b843b6ae24dec22d, type: 2}
+  response: Ah, you've come to listen to more of our village's tales? How about I
+    share an old story with you? Long ago, our ancestors forged an unbreakable bond
+    with nature, which still protects us today. Take some fresh fruits from my garden
+    to feel that connection.
+  riddle:
+    riddleQuestion: 
+    riddleAnswer: 
+    riddleReward: {fileID: 0}
+    locationToUnlock: {fileID: 0}

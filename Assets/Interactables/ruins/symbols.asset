@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2998fcd2a0e81c64da016e24fe6dfe97, type: 3}
+  m_Name: symbols
+  m_EditorClassIdentifier: 
+  name: symbols
+  description: Enigmatic symbols etched into the aged stone walls hint at forgotten
+    rituals and long-gone beliefs.
+  examinationDescription: "As you scrutinize the symbols, you decipher remnants of
+    their significance\u2014a celebration of celestial events and the worship of
+    nature. These etchings reveal that the ancients believed in the harmony of the
+    cosmos and their role within it."
+  taken: 0
+  used: 0
+  takeable: 0
+  usable: 0
+  discardAfterUse: 0
+  boostNumber: 0

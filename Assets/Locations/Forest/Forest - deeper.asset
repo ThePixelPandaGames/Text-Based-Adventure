@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: Forest - deeper
+  m_EditorClassIdentifier: 
+  locationName: deeper
+  locationDescription: As you journey deeper into the heart of the forest, towering
+    trees create a mesmerizing canopy. Sunlight filters through the thick foliage,
+    casting intricate patterns on the forest floor.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 62b59cce4c097f842869e2d775f9f32d, type: 2}
+    exitDescription: Emerging from the depths of the forest, you return to the more
+      familiar surroundings of the forest's edge. The whispering leaves and the dappled
+      sunlight give you a sense of connection to the natural world as you re-enter
+      the forest.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 392512a2f0a96514684b94cbd5496bf6, type: 2}
+    exitDescription: The deeper forest gives way to an ancient landscape. Weathered
+      ruins rise from the ground, embraced by nature's grasp, evoking a sense of
+      long-forgotten stories.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 346029fb56267d04a96a0a37463fbbf3, type: 2}
+    exitDescription: Emerging from the forest's depths, you spot a path leading to
+      the Green Pass. It seems like an inviting journey through nature.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 0408ca2f19bf708409ef8c9fff3ad077, type: 2}
+    exitDescription: Leaving the forest's depths, you encounter a crossroads. One
+      path leads toward the Green Pass, while another one veers toward the mysterious
+      Desertpass.
+    isVisible: 1
+  interactables: []
+  enemies:
+  - {fileID: 11400000, guid: 823c32440d6eef042bc78109e6f16e16, type: 2}
+  npcs:
+  - {fileID: 11400000, guid: e59360655a999c44aabb6eb35ece320d, type: 2}
+  bg: {fileID: 21300000, guid: cbb331c243f5e9c4d893808a1c5541d0, type: 3}

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: Home
+  m_EditorClassIdentifier: 
+  locationName: home
+  locationDescription: In a quaint, cozy home adorned with wooden furniture and warm
+    hues, you find comfort within your family's embrace. Sunlight filters through
+    the curtains, casting a gentle glow. The aroma of a home-cooked meal fills the
+    air, a symphony of culinary delights. Here, your memories intertwine with love
+    and laughter.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: d536c5f30b2e3e940820c30382513aaa, type: 2}
+    exitDescription: A winding path meanders through your peaceful home region, offering
+      glimpses of lush gardens and the serene village beyond.
+    isVisible: 1
+  interactables:
+  - {fileID: 11400000, guid: cbd10453559905c4c9a1ef8edbb82ab6, type: 2}
+  enemies: []
+  npcs:
+  - {fileID: 11400000, guid: ffce37a9feb0c284fb6d2f58302c44b0, type: 2}
+  bg: {fileID: 21300000, guid: 686b132f8866ec5488a3cd002b660cc1, type: 3}

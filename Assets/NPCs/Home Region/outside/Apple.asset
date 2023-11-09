@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3104d71df04f1634ea4e69752960f68c, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: 
+  name: apple
+  description: A crisp and juicy apple, its skin radiant with shades of red and green.
+    With a delightful crunch, you take a refreshing bite, savoring the natural sweetness
+    of this fruit.
+  examinationDescription: This apple is a work of nature's art. Its skin displays
+    a vivid blend of red and green, creating a visually appealing contrast. As you
+    take a bite, the initial crunch gives way to a refreshing burst of crisp juiciness.
+    The apple's natural sweetness dances on your taste buds, invigorating your senses
+    with a satisfying and wholesome flavor. It's a delightful choice for a quick,
+    revitalizing snack during your journey.
+  taken: 0
+  used: 0
+  takeable: 1
+  usable: 1
+  discardAfterUse: 1
+  boostNumber: 8

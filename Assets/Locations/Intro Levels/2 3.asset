@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: 2 3
+  m_EditorClassIdentifier: 
+  locationName: The Hero
+  locationDescription: "As the sun fades on the world we once knew, it's time for
+    you to embark on your journey, my young hero. I am Aric, your mentor and guide
+    in these shadowed lands. Before we take another step, there's something you must
+    decide \u2013 your path and identity.\r\n\r\nIn this world, there are three ancient
+    races, each tied to the elemental forces of nature: the Maw\xFCn, the Aliwen,
+    and the Newen. You may choose one of these races, each bearing unique abilities
+    and ties to the natural world."
+  exits: []
+  interactables: []
+  enemies: []
+  npcs: []
+  bg: {fileID: 0}

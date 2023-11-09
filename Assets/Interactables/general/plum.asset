@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd91272c0f7e964c9cf60ff664f8818, type: 3}
+  m_Name: plum
+  m_EditorClassIdentifier: 
+  name: plum
+  description: The Velvet Plum is a deep, rich purple, almost velvety to the touch.
+    Its fragrance is a delightful combination of sweet and floral
+  examinationDescription: You observe the Velvet Plum. The skin is smooth, and the
+    plum feels heavy with juiciness. Eating one might replenish your vitality
+  taken: 0
+  used: 0
+  takeable: 1
+  usable: 1
+  discardAfterUse: 1
+  boostNumber: 2

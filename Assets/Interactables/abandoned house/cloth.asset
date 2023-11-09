@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2998fcd2a0e81c64da016e24fe6dfe97, type: 3}
+  m_Name: cloth
+  m_EditorClassIdentifier: 
+  name: cloth
+  description: A bloodstained piece of cloth lies discarded on the creaky wooden
+    floor.
+  examinationDescription: The cloth appears to be torn from a larger piece, and the
+    dark stains imply a tragic event. The bloodstains are old, but they still raise
+    unsettling questions about the house's past. What could have caused such a gruesome
+    sight?
+  taken: 0
+  used: 0
+  takeable: 0
+  usable: 0
+  discardAfterUse: 0
+  boostNumber: 0

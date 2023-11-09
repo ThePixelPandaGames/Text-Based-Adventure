@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dd91272c0f7e964c9cf60ff664f8818, type: 3}
+  m_Name: Torch
+  m_EditorClassIdentifier: 
+  name: torch
+  description: A well-used torch with a wooden handle and cloth soaked in pitch.
+    It has been your trusty companion in dark times, illuminating your way in the
+    darkest of places.
+  examinationDescription: A weathered torch with a wooden handle and a frayed cloth,
+    used to illuminate your way through the darkest of places. The handle bears marks
+    from countless adventures, while the cloth smells of soot and adventure. This
+    trusty torch has lit up caves, forests, and unknown paths, always guiding your
+    steps when the world turns dark and uncertain.
+  taken: 0
+  used: 0
+  takeable: 1
+  usable: 1
+  discardAfterUse: 1
+  boostNumber: 0

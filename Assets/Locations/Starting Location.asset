@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: Starting Location
+  m_EditorClassIdentifier: 
+  locationName: north
+  locationDescription: You enter the starting location.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 8e5b68bea785dc444bf470eee15566b5, type: 2}
+    exitDescription: 'path to second location
+
+'
+    isVisible: 1
+  interactables:
+  - {fileID: 11400000, guid: 4a63ac5e745173b49b636c027879c1c2, type: 2}
+  - {fileID: 11400000, guid: 34f7d33ea9e31f84a9daf201a122f597, type: 2}
+  - {fileID: 11400000, guid: 4d7b80cc07fa44a4f8132c4adba4a7ea, type: 2}
+  enemies:
+  - {fileID: 11400000, guid: 9c750b1aed1560f40a5ce14c4b780f0e, type: 2}
+  npcs:
+  - {fileID: 11400000, guid: e1a984b6957b0c242a985174183ef2af, type: 2}
+  - {fileID: 11400000, guid: 666b74b55eb40e8429bcce36136f9eab, type: 2}

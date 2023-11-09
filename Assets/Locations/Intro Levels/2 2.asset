@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: 2 2
+  m_EditorClassIdentifier: 
+  locationName: The Hero
+  locationDescription: 'Aric''s words are solemn and foreboding. "It is time," he
+    says, a phrase heavy with the weight of destiny. The time has come to find your
+    sister, to face your past, to unveil the enigmatic shadows that obscure the truth.
+
+
+
+    With
+    bated breath, Aric gazes at you, awaiting your answer. His voice carries in the
+    silence, for the moment has come for you to shape your own fate. "Tell me, which
+    race do you belong to, and what name shall you be known by? Your adventure begins
+    now."'
+  exits: []
+  interactables: []
+  enemies: []
+  npcs: []
+  bg: {fileID: 0}

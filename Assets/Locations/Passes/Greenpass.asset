@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: Greenpass
+  m_EditorClassIdentifier: 
+  locationName: greenpass
+  locationDescription: As you journey through the green pass, the tranquility of
+    nature surrounds you. Towering trees reach for the sky, creating a serene tunnel
+    through which you wander. It's a place of quiet reflection, where the journey
+    becomes just as important as the destination.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 782f1153a396b124680c3aa68f150203, type: 2}
+    exitDescription: As you turn away from the Green Pass, the forest's welcoming
+      embrace once again surrounds you, and a hidden path takes you deeper.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 62b59cce4c097f842869e2d775f9f32d, type: 2}
+    exitDescription: The forest's edge looms before you, and the call of the dense
+      woods is hard to resist. A trail disappears into the trees.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 0408ca2f19bf708409ef8c9fff3ad077, type: 2}
+    exitDescription: Amongst the greenery of the Green Pass, you spot a trail that
+      ventures toward the arid and mysterious Desert Pass.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 2da045dbc72b52748a6755f00a59e96f, type: 2}
+    exitDescription: The path ahead descends into the heart of Green Pass, where
+      the world above gives way to a realm of enchanting secrets.
+    isVisible: 1
+  interactables: []
+  enemies: []
+  npcs: []
+  bg: {fileID: 21300000, guid: 57b4ff8a864fd554793c55ee1adf9a88, type: 3}

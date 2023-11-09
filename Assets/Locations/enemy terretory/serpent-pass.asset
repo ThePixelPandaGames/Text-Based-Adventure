@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: serpent-pass
+  m_EditorClassIdentifier: 
+  locationName: serpent-pass
+  locationDescription: As you navigate the serpents pass, you delve into winding
+    caverns that snake through the mountains. These tunnels hold the earth's deepest
+    secrets, concealed within their rocky embrace.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 0408ca2f19bf708409ef8c9fff3ad077, type: 2}
+    exitDescription: The harsh winds and vast sands of the desert pass become more
+      pronounced as you contemplate this route, hinting at the shifting landscape
+      ahead.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 694c99a9f3c15344a880ac2fcc6990fa, type: 2}
+    exitDescription: '"Leaving the daunting cliffs of Serpents Pass, you sense the
+      lurking danger of the enemy territory ahead, shrouded in an eerie stillness.'
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 82b76d2755d538743a7476a22b0a33f0, type: 2}
+    exitDescription: Hidden behind the towering peaks of Serpents Pass, a concealed
+      path reveals the entrance to the Revolutionist Underground, a refuge for those
+      who defy the oppressive regime.
+    isVisible: 0
+  interactables: []
+  enemies:
+  - {fileID: 11400000, guid: 8b8fd354770640c409929acf0f28c5c7, type: 2}
+  npcs: []
+  bg: {fileID: 21300000, guid: a1ef6186b2add3a4695d391318d9d972, type: 3}

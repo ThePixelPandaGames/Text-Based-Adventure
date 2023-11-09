@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: 2 1
+  m_EditorClassIdentifier: 
+  locationName: The Hero
+  locationDescription: 'Suddenly, a figure emerges from the shadows, a mentor named
+    Aric. He stands as a paragon of wisdom, a torchbearer of the journey you are
+    about to embark upon. His eyes, wiser than the darkest tomes of history, lock
+    onto your soul.
+
+
+
+    Aric''s words are solemn and foreboding. "It is time,"
+    he says, a phrase heavy with the weight of destiny. The time has come to find
+    your sister, to face your past, to unveil the enigmatic shadows that obscure
+    the truth.'
+  exits: []
+  interactables: []
+  enemies: []
+  npcs: []
+  bg: {fileID: 0}

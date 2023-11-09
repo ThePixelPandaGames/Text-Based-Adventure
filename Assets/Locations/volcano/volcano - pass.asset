@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: volcano - pass
+  m_EditorClassIdentifier: 
+  locationName: volcanopass
+  locationDescription: You find yourself in a perilous pass leading towards the volcanic
+    heart of the land. The air is heavy with heat, and the ground beneath your feet
+    is a mixture of craggy rocks and coarse, black sand. The looming presence of
+    the volcano casts long shadows over the landscape, while occasional plumes of
+    dark smoke drift ominously from the mountain's peaks. A sense of danger and adventure
+    engulfs you as you venture deeper into this fiery domain.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: b1d25b4d83d8c9344aaef88a08a10eff, type: 2}
+    exitDescription: Before you, a darkened cavern entrance beckons, leading deeper
+      into the alps' hidden underground. The pass behind you extends towards the
+      fiery heart of the volcano.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 5c41a40ae53ebce43b0ba8b8aa56170a, type: 2}
+    exitDescription: Turning around, you witness the ominous sight of the volcano's
+      imposing presence. Its towering peaks seem to touch the sky, and the path leads
+      you closer to the smoldering crater, offering a stark contrast between the
+      fiery danger ahead and the cool relief behind.
+    isVisible: 1
+  interactables: []
+  enemies:
+  - {fileID: 11400000, guid: 48a82b67f0e6526488a75a8a016140a2, type: 2}
+  npcs: []
+  bg: {fileID: 21300000, guid: 6060e0b939f0fdd43b5c46a786240eb1, type: 3}

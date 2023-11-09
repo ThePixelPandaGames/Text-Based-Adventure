@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc7a58c759a363448acd5a5617704d4, type: 3}
+  m_Name: Amaru
+  m_EditorClassIdentifier: 
+  name: amaru
+  descriptionInLocation: Amaru's eyes shimmer with an age-old wisdom, reflecting
+    the twinkling stars. They are often found seated on a moss-covered stone, surrounded
+    by ancient tomes and scrolls. The wind carries their soft whispers, and their
+    voice holds a hint of enigma. Their grizzled hair, flecked with silvery streaks,
+    adds to the air of ancient knowledge.
+  reward: {fileID: 11400000, guid: 247aa169896ea754186d4c88223c7db1, type: 2}
+  response: A stargazer in the making, eh? The stars hold the secrets of our world,
+    you know. Perhaps one day you'll unravel their tales. Take this torch to stay
+    fearless, and your journey will be as bright as the night sky
+  riddle:
+    riddleQuestion: 
+    riddleAnswer: 
+    riddleReward: {fileID: 0}
+    locationToUnlock: {fileID: 0}

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: volcano
+  m_EditorClassIdentifier: 
+  locationName: volcano
+  locationDescription: Within the depths of the volcano, the air is charged with
+    intensity. Fire ruins, remnants of an ancient civilization, lie hidden in the
+    fiery embrace. These ruins guard the secrets of power, and their history is etched
+    into every molten stone.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 89bf557a8e4084645ade39f58d66abae, type: 2}
+    exitDescription: As you retreat from the volcano's fiery depths, the path leads
+      you back to the Volcano Pass. The cool air and natural surroundings provide
+      a welcome contrast to the intense heat you've just experienced.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 0b4a34ad46fa2da4589d0af189caa92a, type: 2}
+    exitDescription: A crimson glow in the distance catches your attention, where
+      molten rock and fiery embers illuminate the path leading to the heart of the
+      volcano called the 'fire eye'.
+    isVisible: 1
+  interactables: []
+  enemies:
+  - {fileID: 11400000, guid: f35265a312b1eae4bbdff3ae80e80032, type: 2}
+  npcs: []
+  bg: {fileID: 21300000, guid: a176062abf40c50488f9034de9a76a5c, type: 3}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: enemy-terretory
+  m_EditorClassIdentifier: 
+  locationName: enemy-terretory
+  locationDescription: As you venture further into the First Enemy Territory, the
+    underground resistance base thrums with life and hope. It's a sanctuary amidst
+    darkness, where flickering torchlight illuminates the faces of determined individuals.
+    In hushed conversations, stories of unity and strength emerge. Here, whispers
+    of a brighter future serve as a counterpoint to the enemy's looming presence.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 390d9294cd1828a4ebad45cdf6a44936, type: 2}
+    exitDescription: As you retreat from the enemy territory, the imposing cliffs
+      of Serpents Pass provide a reassuring backdrop, their mysterious allure calling
+      you back.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 1c3da8fa9ee678540a0b8ef22f21a7e3, type: 2}
+    exitDescription: A dimly lit passage leads you from the rugged terrain of the
+      enemy territory to a serene enclave adorned with ancient ruins.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: 82b76d2755d538743a7476a22b0a33f0, type: 2}
+    exitDescription: You encounter an entrance to an underground world. The dark
+      passage leads to hidden depths, and a sense of mystery fills the air.
+    isVisible: 1
+  interactables: []
+  enemies:
+  - {fileID: 11400000, guid: 15208b7f6e41fae45b78765ce0ed5c3b, type: 2}
+  npcs:
+  - {fileID: 11400000, guid: 9c72f45c731d17f4e93e97c035e43fbb, type: 2}
+  bg: {fileID: 21300000, guid: 19ad84c036c778f459ea8f7987dc9687, type: 3}

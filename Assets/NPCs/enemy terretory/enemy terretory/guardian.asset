@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc7a58c759a363448acd5a5617704d4, type: 3}
+  m_Name: guardian
+  m_EditorClassIdentifier: 
+  name: guardian
+  descriptionInLocation: A heavily guarded entrance to the enemy's realm. Your path
+    forward is blocked by a stern-looking guardian.
+  reward: {fileID: 0}
+  response: 
+  riddle:
+    riddleQuestion: In times of change and upheaval, I'm a symbol of rebellion and
+      revolution. What am I?
+    riddleAnswer: flag
+    riddleReward: {fileID: 11400000, guid: db31be0184daff44a943470e0a4601b0, type: 2}
+    locationToUnlock: {fileID: 11400000, guid: 694c99a9f3c15344a880ac2fcc6990fa, type: 2}

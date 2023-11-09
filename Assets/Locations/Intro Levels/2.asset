@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  locationName: The Hero
+  locationDescription: 'You stand at the crossroads of your destiny, a tale waiting
+    to be written. The world around you stirs with ancient whispers, and a grand
+    adventure beckons. You are not yet a hero; you are but a protagonist in the making.
+
+    
+
+    As
+    you take your first steps, the ethereal veil of the unknown lifts. Your journey
+    begins in your modest home, a place that resonates with comforting familiarity.
+    You are granted the honor of choosing your own path, your own race, and even
+    your own name.'
+  exits: []
+  interactables: []
+  enemies: []
+  npcs: []
+  bg: {fileID: 0}

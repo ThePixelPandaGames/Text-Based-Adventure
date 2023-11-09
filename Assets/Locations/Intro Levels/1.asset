@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  locationName: The Beginning
+  locationDescription: "Before the crossroads of your destiny, before the whispers
+    of ancient prophecies, there was a time of tranquility. The world was once a
+    place of peace and hope, where the warmth of daylight embraced every corner,
+    and the future held the promise of prosperity. But as with any great story, the
+    calm was shattered by the relentless march of darkness.\r"
+  exits: []
+  interactables: []
+  enemies: []
+  npcs: []
+  bg: {fileID: 0}

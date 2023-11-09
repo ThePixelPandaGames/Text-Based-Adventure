@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: greenpass-deeper
+  m_EditorClassIdentifier: 
+  locationName: greenpass-deeper
+  locationDescription: You've reached the heart of the green pass, where the moon's
+    gentle glow lights your way. Here lies a graveyard, ethereal and melancholic.
+    It's a place where spirits from the past and their untold stories rest in solemn
+    contemplation.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 346029fb56267d04a96a0a37463fbbf3, type: 2}
+    exitDescription: Behind you stretches the dense foliage of Green Pass, whispering
+      secrets of the forest.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: d14846b8d6671e542a3cf0d5cf2518b7, type: 2}
+    exitDescription: 
+    isVisible: 0
+  interactables: []
+  enemies: []
+  npcs:
+  - {fileID: 11400000, guid: 7f2e274f6a731bd489ab1f99b1b7216b, type: 2}
+  bg: {fileID: 21300000, guid: 4c8be2b59e759d549921d84e30495dfb, type: 3}

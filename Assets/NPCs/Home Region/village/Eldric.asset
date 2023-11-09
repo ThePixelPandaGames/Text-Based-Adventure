@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc7a58c759a363448acd5a5617704d4, type: 3}
+  m_Name: Eldric
+  m_EditorClassIdentifier: 
+  name: eldric
+  descriptionInLocation: In the heart of the village, residents gather, sharing stories
+    of the shadow's threat and the legends of heroes. In the midst, Eldric, the drunken
+    sailor. Always ignored - now heard.
+  reward: {fileID: 0}
+  response: Ah, you're new here, aren't you? Let me tell you about the Purge. The
+    shadows came from the east, and the heroes emerged from the west. It's all part
+    of a grand cycle, you see.
+  riddle:
+    riddleQuestion: 
+    riddleAnswer: 
+    riddleReward: {fileID: 0}
+    locationToUnlock: {fileID: 0}

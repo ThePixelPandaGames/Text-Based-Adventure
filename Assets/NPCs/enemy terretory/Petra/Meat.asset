@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5a9558e177973646b39b0b18eccebdd, type: 3}
+  m_Name: Meat
+  m_EditorClassIdentifier: 
+  name: steak
+  description: A succulent piece of meat cooked to perfection. The smoky aroma wafts
+    from it, making your mouth water. This hearty meal promises to satisfy your hunger
+    and provide much-needed energy.
+  examinationDescription: This steak is a culinary delight. It's a perfectly cooked,
+    juicy, and tender piece of meat, seared to a mouthwatering perfection. The smoky
+    aroma rises from the seared surface, tantalizing your senses. The exterior boasts
+    a beautiful crust while the inside is warm, succulent, and ready to be devoured.
+    Its rich flavor and juicy texture make it a satisfying and energy-boosting meal,
+    perfect for adventurers needing a hearty replenishment.
+  taken: 0
+  used: 0
+  takeable: 1
+  usable: 1
+  discardAfterUse: 1
+  boostNumber: 2

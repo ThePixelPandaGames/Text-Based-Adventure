@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: 1 2
+  m_EditorClassIdentifier: 
+  locationName: The Beginning
+  locationDescription: 'The protagonist, then just a humble denizen of this world,
+    found their life upturned when they returned to their home. What was once a haven
+    of love and laughter became a place of unspeakable tragedy. Their family lay
+    lifeless, victims of an unfathomable evil, their bodies drained of life by the
+    insidious Shadows.
+
+
+
+    With a heavy heart and a resolve born of loss, the
+    protagonist swore vengeance against the darkness that had taken everything from
+    them. Little by little, they began to learn of the Shadows'' true nature, a dark
+    force seeking to enslave the world, feeding off the fear and suffering of its
+    inhabitants.
+
+
+
+    As the Shadows'' malevolent influence spread like wildfire,
+    chaos and despair rippled through the land. The earth wept, its life force drained
+    by the insatiable darkness. Desperate cries for salvation echoed, but no hero
+    rose to answer the call.
+
+
+
+    Until now.'
+  exits: []
+  interactables: []
+  enemies: []
+  npcs: []
+  bg: {fileID: 0}

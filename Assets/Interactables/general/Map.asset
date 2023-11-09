@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0277018d15f0bec4eb5aa6e9cee0e828, type: 3}
+  m_Name: Map
+  m_EditorClassIdentifier: 
+  name: map
+  description: An intricately detailed map, highlighting various landmarks, routes,
+    and geographical features. The crisp lines and carefully labeled destinations
+    make it a valuable tool for navigation.
+  examinationDescription: This map is a remarkable piece of cartographic artistry.
+    Each intricate detail and geographical feature has been meticulously rendered,
+    offering a comprehensive view of the surrounding landscape. It showcases numerous
+    landmarks and clearly marked routes, providing a valuable resource for navigating
+    your path with confidence. Whether you're seeking a particular location or exploring
+    the unknown, this map is a trusted companion, guiding you with its precision
+    and clarity.
+  taken: 0
+  used: 0
+  takeable: 1
+  usable: 1
+  discardAfterUse: 0
+  boostNumber: 0

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: petra
+  m_EditorClassIdentifier: 
+  locationName: petra
+  locationDescription: As you approach Petra, an imposing stronghold of your enemy,
+    an unsettling aura chokes the air. Shadowy spires reach for the heavens, casting
+    long, ominous silhouettes across the land. Walls of imposing stone block the
+    way, their cruel designs speaking of oppression. It's a place where secrets are
+    locked behind fortified doors, and the weight of past battles hangs heavy in
+    the air.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 1c3da8fa9ee678540a0b8ef22f21a7e3, type: 2}
+    exitDescription: Walking through a magnificent gateway, you leave the grandeur
+      of Petra for the intriguing atmosphere of Pre-Petra.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: cc7a3b35ad5a90a44891dab484700dc5, type: 2}
+    exitDescription: A winding path leads you from Petra's splendor to the imposing
+      fortress of the enemy, the transition marked by a looming drawbridge.
+    isVisible: 1
+  interactables: []
+  enemies:
+  - {fileID: 11400000, guid: a46a4e3c892d1ab4d8aeb1a778162b3a, type: 2}
+  - {fileID: 11400000, guid: df4ab208222bb3e4dbafe4f6d2fad88e, type: 2}
+  - {fileID: 11400000, guid: d6f7ea6b279b7874bab021c54a182683, type: 2}
+  npcs:
+  - {fileID: 11400000, guid: 85643bfbcef41af4cb0dd54a5aca2722, type: 2}
+  bg: {fileID: 21300000, guid: 1129d04bbec03ad42ba0ce9215d48eee, type: 3}

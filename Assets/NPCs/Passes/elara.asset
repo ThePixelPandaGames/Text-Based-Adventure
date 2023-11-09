@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bc7a58c759a363448acd5a5617704d4, type: 3}
+  m_Name: elara
+  m_EditorClassIdentifier: 
+  name: elara
+  descriptionInLocation: Elara, a once-happy resident of a peaceful village, now
+    stands amidst the eerie shadows of the deep forest. Her life was torn apart when
+    her husband was taken by the encroaching darkness, consumed by the very shadows
+    she now studies. She holds knowledge of the ancient history and the creeping
+    threats that loom over the forest.
+  reward: {fileID: 11400000, guid: 51e5e850311ccd64882b0fa56f927297, type: 2}
+  response: Gaze upon the heart of the forest, traveler. A time long past held our
+    village in its warm embrace. Yet, the shadows crept in, and my husband was lost
+    to their sinister grasp. Do you seek to uncover the truth behind our tales? Answer
+    my riddle, and perhaps I shall share what I know.
+  riddle:
+    riddleQuestion: I speak without a mouth and hear without ears. I have no body,
+      but I come alive with the wind. What am I?
+    riddleAnswer: echo
+    riddleReward: {fileID: 11400000, guid: 6567a6d9f85f5c04db49fa61d3b40b03, type: 2}
+    locationToUnlock: {fileID: 11400000, guid: 2da045dbc72b52748a6755f00a59e96f, type: 2}

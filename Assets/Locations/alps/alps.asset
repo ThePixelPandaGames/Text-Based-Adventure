@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfeb3f8dbafe17543b856e35cb248634, type: 3}
+  m_Name: alps
+  m_EditorClassIdentifier: 
+  locationName: alps
+  locationDescription: The alps rise majestically before you, their snow-clad peaks
+    like sentinels of the sky. Challenges await climbers among these towering giants,
+    while the mountains themselves whisper tales of ancient powers and the echoes
+    of the past.
+  exits:
+  - locationToExit: {fileID: 11400000, guid: 0408ca2f19bf708409ef8c9fff3ad077, type: 2}
+    exitDescription: Descending from the towering alps, you would return to the arid
+      expanses of Desert Pass.
+    isVisible: 1
+  - locationToExit: {fileID: 11400000, guid: b1d25b4d83d8c9344aaef88a08a10eff, type: 2}
+    exitDescription: The path leads deeper into the heart of the alps, where rugged
+      terrain and hidden secrets await.
+    isVisible: 1
+  interactables: []
+  enemies: []
+  npcs:
+  - {fileID: 11400000, guid: 0147496ce318b9e44996124cc5209f63, type: 2}
+  bg: {fileID: 21300000, guid: 61757f0407b577348a69fa133c6fbf80, type: 3}
